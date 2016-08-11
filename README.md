@@ -29,4 +29,3 @@ win10 让我们不能屏蔽掉shift-space，太痛苦，遂开发此小程序，
 
 下载autohotkey的安装程序，运行killShiftSpace.ahk即可。
 
-如果需要关闭，则打开任务管理器杀掉AutoHotKey即可。 
