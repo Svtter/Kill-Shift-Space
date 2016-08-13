@@ -24,8 +24,10 @@ win10 让我们不能屏蔽掉shift-space，太痛苦，遂开发此小程序，
 
 第二种方法是使用`autohotkey`。
 
-这种方法因为是使用autohotkey，所以并不是调用的系统函数。但是优势在于可以仅使左边的`Shift+space`停用。
+这种方法因为是使用autohotkey，所以并不是直接调用系统函数。但是优势在于可以仅使左边的`Shift+space`停用，右边的仍然可用
 
 
-下载autohotkey的安装程序，运行killShiftSpace.ahk即可。
-
+- 方法一
+下载autohotkey的安装程序，运行`killShiftSpace.ahk`即可。
+- 方法二
+下载`Kill-shift-space.exe`，双击运行。这是由`killShiftSpace.ahk`编译得来。
