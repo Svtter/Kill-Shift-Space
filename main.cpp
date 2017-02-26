@@ -33,6 +33,14 @@ int main(int argc, char *argv[])
 		if (winMessage.message == WM_HOTKEY)
 		{
 			cout << "Received hotkey message" << endl;
+			
+			// "shift space" map to "space".
+			// {
+			keybd_event(VK_SHIFT, 0, KEYEVENTF_KEYUP, 0); 
+			keybd_event(VK_SPACE, 0, KEYEVENTF_KEYUP, 0);
+			keybd_event(VK_SPACE, 0, 0, 0);
+			keybd_event(VK_SPACE, 0, KEYEVENTF_KEYUP, 0);
+			// }
 		}
 	}
 
