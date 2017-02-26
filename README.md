@@ -8,17 +8,16 @@ win32API
 ---
 
 - 方案一
+
 将`GlobalHotkey.exe`添加入启动项即可。
 
 - 方案二
+
 将`killshiftspace-map.exe`将入启动项。与方案一不同，**方案二将`shift+space`映射为`space`。**
 
 - 关闭方法
 
 打开任务管理器杀掉本程序即可。
-
-
----
 
 
 AutoHoyKey
