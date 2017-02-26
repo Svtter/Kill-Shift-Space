@@ -13,7 +13,7 @@ win32API
 
 - 方案二
 
-将`killshiftspace-map.exe`将入启动项。与方案一不同，**方案二将`shift+space`映射为`space`。**
+~~将`killshiftspace-map.exe`将入启动项。与方案一不同，**方案二将`shift+space`映射为`space`。**~~
 
 - 关闭方法
 
